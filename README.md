@@ -37,7 +37,7 @@ The VC-28 library is compatible with:
 * **Arduino**
 * **ESP-IDF**
 * **PlatformIO**
-* Other **C++** environments supporting the ESP32-S3
+* Other **C++** environments supporting ESP32-S3
 
 ## Usage (Arduino)
 
@@ -47,18 +47,16 @@ The VC-28 library is compatible with:
 
 1. In the Arduino IDE, navigate to **File → Preferences**.
 2. In the **Additional Boards Manager URLs** field, add:
-
-   ```
-   https://espressif.github.io/arduino-esp32/package_esp32_index.json
-   ```
+```
+https://espressif.github.io/arduino-esp32/package_esp32_index.json
+```
 3. Go to **Tools → Board → Boards Manager…**
 4. Search for **ESP32** and install the package by *Espressif Systems*.
 
 #### 2. Install the VC-28 Library
 
 1. Download this repository as a `.zip` file.
-2. In the Arduino IDE, navigate to:
-   **Sketch → Include Library → Add .ZIP Library…**
+2. In the Arduino IDE, navigate to **Sketch → Include Library → Add .ZIP Library…**
 3. Select the downloaded `.zip` file to install the VC-28 library.
 
 ### Programming

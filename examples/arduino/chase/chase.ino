@@ -1,3 +1,11 @@
+/*
+    Example: Chase
+
+    Demonstrates a simple "chase" sequence across all output channels.
+    Each channel is activated in order with a short delay between steps,
+    then deactivated before the next channel turns on.
+*/
+
 #include "board_config.h"
 
 void setup() {
@@ -12,7 +20,7 @@ void setup() {
 }
 
 void loop() {
-    // Example: toggle all channels sequentially
+    // Toggle all channels sequentially
     for (uint8_t i = 0; i < board.numChannels; i++) {
         digitalWrite(board.channels[i], HIGH);
         delay(500);
