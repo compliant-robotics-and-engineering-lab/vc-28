@@ -12,7 +12,7 @@ This repository provides the hardware definitions for the VC-28 Control Board.
 
 ### Core
 
-* **Microcontroller:** ESP32-S3-WROOM-1U-N16R8
+* **Microcontroller:** ESP32-S3-WROOM-1U
 * **Memory:** 16 MB Flash / 8 MB PSRAM
 * **Reset Control:** On-board tactile reset button
 * **USB Interface:** USB Type-C for programming and debugging
