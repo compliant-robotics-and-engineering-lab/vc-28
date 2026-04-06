@@ -13,17 +13,17 @@ void setup() {
     Serial.println(board.name);
 
     // Initialize all outputs
-    for (uint8_t i = 0; i < board.numChannels; i++) {
-        pinMode(board.channels[i], OUTPUT);
-        digitalWrite(board.channels[i], LOW);
+    for (uint8_t i = 1; i <= board.numChannels; i++) {
+        pinMode(board.channel(i), OUTPUT);
+        digitalWrite(board.channel(i), LOW);
     }
 }
 
 void loop() {
     // Toggle all channels sequentially
-    for (uint8_t i = 0; i < board.numChannels; i++) {
-        digitalWrite(board.channels[i], HIGH);
+    for (uint8_t i = 1; i <= board.numChannels; i++) {
+        digitalWrite(board.channel(i), HIGH);
         delay(500);
-        digitalWrite(board.channels[i], LOW);
+        digitalWrite(board.channel(i), LOW);
     }
 }

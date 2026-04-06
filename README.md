@@ -59,6 +59,12 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 2. In the Arduino IDE, navigate to **Sketch → Include Library → Add .ZIP Library…**
 3. Select the downloaded `.zip` file to install the VC-28 library.
 
+### Configuration
+
+#### Select the Board
+
+1. In the Arduino IDE, go to **Tools → Board** and select **ESP32S3 Dev Module**.
+
 ### Programming
 
 Include the board configuration in your sketch:
